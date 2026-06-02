@@ -5,7 +5,7 @@
 The season finale at Abu Dhabi perfectly encapsulated the 2025 championship battle. Facing a structurally superior McLaren MCL39, Red Bull was forced into a desperate strategic corner: stripping the RB21 of downforce to guarantee straight-line speed, solely to defend track position. While this allowed Verstappen to execute an absolute masterclass in defensive driving, it destroyed his tires. McLaren and Norris, recognizing the impossibility of a safe on-track overtake against a low-drag setup, opted for strategic prudence. By prioritizing the championship over a risky race win, McLaren executed an offset pit strategy, allowing Norris to secure the crown by a mere 2-point margin. Simultaneously, the race exposed a fatal organizational flaw within Red Bull—their inability to mount a multi-car defense utilizing the second seat, highlighting the ultimate collapse of their single-driver developmental philosophy.
 
 ## 2. Micro-Telemetry Analysis: The Low-Downforce Gamble
-![Qualifying Telemetry](../output/2025_Abu Dhabi_Q_VER_NOR.png)
+![Qualifying Telemetry](../output/2025_Abu_Dhabi_Q_VER_NOR.png)
 *(Based on Qualifying & Race Telemetry dynamics)*
 
 ### A. The "Straight-Line Shield" Setup
@@ -13,12 +13,12 @@ The season finale at Abu Dhabi perfectly encapsulated the 2025 championship batt
 * **Analysis:** Red Bull deliberately compromised their aerodynamic platform. By running an extreme low-downforce configuration, they turned the RB21 into a "straight-line shield," calculating that if Verstappen secured track position, the narrow nature of Yas Marina would prevent Norris from overtaking, despite McLaren's superior overall pace.
 
 ### B. Platform Collapse: The Turn 9 Death Wiggle
-![Race Telemetry](../output/2025_Abu Dhabi_R_VER_NOR.png)
+![Race Telemetry](../output/2025_Abu_Dhabi_R_VER_NOR.png)
 * **Observation:** Under heavy fuel load during the race, Verstappen’s throttle trace at Turn 9 exhibits severe instability (sharp application → sudden lift → re-application). Norris continues to utilize smooth trail-braking (e.g., Turn 16) and proactive block-shifting without unsettling the car.
 * **Analysis:** Verstappen's erratic throttle input at T9 is the physical manifestation of "snap oversteer." Lacking rear downforce, the RB21's rear axle attempts to break traction violently on exit, forcing Verstappen to counter-steer and lift. This singular dynamic explains the catastrophic thermal degradation Red Bull suffered in the race's second half.
 
 ## 3. Macro Race Pace Analysis: The Psychological War
-![Race Pace Scatter Plot](../output/2025_Abu Dhabi_RacePace_VER_NOR.png)
+![Race Pace Scatter Plot](../output/2025_Abu_Dhabi_RacePace_VER_NOR.png)
 *(Based on the 58-lap Race Pace scatter plot)*
 
 ### A. The Degradation Cliff and Defensive Masterclass
