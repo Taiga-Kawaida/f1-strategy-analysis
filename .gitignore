@@ -1,0 +1,18 @@
+# FastF1 Cache Data
+*_cache/
+Cache/
+f1_cache/
+data/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Mac OS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code Settings (Optional)
+.vscode/
