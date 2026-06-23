@@ -6,7 +6,7 @@
 単なるラップタイムの比較ではなく、FastF1から取得したスロットル開度、ブレーキ踏力、速度遷移などのミクロなデータと、タイヤの熱劣化モデリング等のマクロな戦略データを統合。空力プラットフォームの安定性が、いかにドライバーの操作限界とチームのピット戦略を決定づけるかを定量的に証明しています。
 
 **【使用技術】** Python, FastF1 API, Pandas, NumPy, Matplotlib
-**【解析対象】** 2024-2025年シーズンのマクラーレンとレッドブルにおける、空力開発戦争と挙動変化のパラダイムシフト
+**【解析対象】** 2024-2025年シーズンのマクラーレンとレッドブルにおける、空力開発戦争と挙動変化の転換
 
 ▼ 出力結果の一例（マイアミGPにおけるトップドライバー2名の挙動比較）
 ![Telemetry_Plot](output/2024_Miami_Q_VER_NOR.png)
@@ -40,5 +40,9 @@ The analysis is divided into chronological chapters, tracking the exact inflecti
 * **[Chapter 5: The Ultimate Compromise - 2025 Abu Dhabi GP](./reports/05_2025_Abu_Dhabi_Analysis.md)**
   * *Focus:* Organizational vulnerability. Analyzing Red Bull's extreme low-downforce defensive gamble, McLaren's championship-securing offset pit strategy, and the structural collapse of Red Bull's second-seat philosophy.
 
-## 4. Key Takeaway
+## 4. 2026 R&D Outlook
+* **[The Evolution of Energy Management - 2025 Japan GP Analysis](./reports/2026_Energy_Manegement_Outlook.md)**
+  * *Focus:* The New Baseline for 2026. Demonstrating the direct correlation between aerodynamic platform stability and energy regeneration efficiency (Lift & Coast) ahead of next-generation PU regulations.
+
+## 5. Key Takeaway
 This project proves that modern F1 strategy cannot be calculated via lap times alone. True strategic advantage is unlocked only by understanding the physical limitations of the car's aerodynamic platform and how the driver is forced to operate within those boundaries under changing fuel loads and tire conditions.
