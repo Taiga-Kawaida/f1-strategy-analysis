@@ -1,9 +1,9 @@
-# F1 Vehicle Dynamics & Strategic Analysis: 2024-2025 Paradigm Shift
+## F1 Vehicle Dynamics & Strategic Analysis: 2024-2025 Paradigm Shift
 
 ## プロジェクト概要 (Japanese Summary)
 本リポジトリは、F1における車両運動性能（ビークルダイナミクス）とレース戦略の相関を、Pythonおよび公式テレメトリーデータを活用して独自に解析したプロジェクトです。
 
-単なるラップタイムの比較ではなく、FastF1から取得したスロットル開度、ブレーキ踏力、速度遷移などのミクロなデータと、タイヤの熱劣化モデリング等のマクロな戦略データを統合。空力プラットフォームの安定性が、いかにドライバーの操作限界とチームのピット戦略を決定づけるかを定量的に証明しています。
+単なるラップタイムの比較ではなく、FastF1から取得したスロットル開度、ブレーキ踏力、速度遷移などのミクロなデータと、レースペースの推移から読み解くタイヤ劣化傾向等のマクロな戦略データを統合。空力プラットフォームの安定性が、いかにドライバーの操作限界とチームのピット戦略を決定づけるかを定量的に証明しています。
 
 **【使用技術】** Python, FastF1 API, Pandas, NumPy, Matplotlib
 **【解析対象】** 2024-2025年シーズンのマクラーレンとレッドブルにおける、空力開発戦争と挙動変化の転換
@@ -23,7 +23,7 @@ By extracting and interpreting high-resolution micro-telemetry (throttle, brake,
 ## 2. Methodology & Tech Stack
 * **Data Source:** Official F1 timing and telemetry data extracted via the `FastF1` Python library.
 * **Analysis Scope:** * **Micro-Dynamics:** Cornering phase breakdown, trail-braking / pitch control analysis, and traction deployment mapping.
-  * **Macro-Strategy:** Tire thermal degradation modeling, strategic pit-window calculations, and traffic management (DRS trains, VSC implications).
+  * **Macro-Strategy:** Tire degradation trend analysis, strategic pit-window calculations, and traffic management (DRS trains, VSC implications).
 * **Tools Used:** Python, Pandas, Matplotlib, VS Code, Git.
 
 ## 3. Case Studies & Reports
